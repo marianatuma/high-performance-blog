@@ -8,8 +8,13 @@ The backend is mocked by [JSONPlaceholder](https://jsonplaceholder.typicode.com/
 
 - **Azion**: Brazilian platform that provides CDN, edge computing and security services for high-performance and scalability. You can learn more about Azion [here](https://www.azion.com/en/)
   - Azion automatically creates Github actions that handle CI/CD, and an Angular boilerplate project.
+  - The Azion command line is used to build (`azion build`) and test locally (`azion dev`).
 - **Angular**: _The_ frontend framework. This blog is built with Angular 18.
 - **Typescript**: Typescript is a Javascript superset - more robust, intuitive and powerful.
+
+## Commands
+
+- `azion build`:
 
 ---
 
