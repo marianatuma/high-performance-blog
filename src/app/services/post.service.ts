@@ -9,7 +9,7 @@ import { Post } from '../types/post.type';
 export class PostService {
   constructor(private httpClient: HttpClient) {}
 
-  getPostById(id: string): Observable<Post | undefined> {
+  getPostById(id: string): Observable<Post | null> {
     return this.httpClient.get<Post>(
       `https://jsonplaceholder.typicode.com/posts/${id}`
     );
