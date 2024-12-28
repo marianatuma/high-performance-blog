@@ -12,9 +12,9 @@ The backend is mocked by [JSONPlaceholder](https://jsonplaceholder.typicode.com/
 - **Angular**: _The_ frontend framework. This blog is built with Angular 18.
 - **Typescript**: Typescript is a Javascript superset - more robust, intuitive and powerful.
 
-## Commands
+## How it works:
 
-- `azion build`:
+Once a PR is merged, Azion's custom Github Actions will kick in to handle the deploy
 
 ---
 
