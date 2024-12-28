@@ -1,3 +1,11 @@
+## Tech Stack
+
+- **Azion**: Brazilian platform that provides CDN, edge computing and security services. You can learn more about Azion [here](https://www.azion.com/en/)
+  - Azion automatically creates Github actions that handle CI/CD, and an Angular boilerplate project.
+- **Angular**: No introduction needed.
+
+---
+
 # Angular Boilerplate
 
 With the **Angular Boilerplate**, you can simplify and enhance the deployment of Angular applications directly on the edge of the network. This template provides an automation solution that encapsulates several steps, from repository management to edge deployment, accelerating and simplifying your workflow.
@@ -26,4 +34,3 @@ Deploy your own Angular project with Azion.
 [![Deploy Button](https://www.azion.com/button/)](https://console.azion.com/create/angular/angular-boilerplate "Deploy with Azion")
 
 For a more detailed step-by-step, check the [documentation](https://www.azion.com/en/documentation/products/guides/angular-boilerplate/).
-
