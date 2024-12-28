@@ -1,0 +1,11 @@
+<div>
+  <h1>Welcome!</h1>
+  <h2>Check out the latest posts:</h2>
+  <ul>
+    @for (post of posts; track post.id) {
+    <li>
+      <a href="/post/{{ post.id }}">{{ post.title }}</a>
+    </li>
+    }
+  </ul>
+</div>
