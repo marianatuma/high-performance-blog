@@ -14,7 +14,13 @@ The backend is mocked by [JSONPlaceholder](https://jsonplaceholder.typicode.com/
 
 ## How it works:
 
-Once a PR is merged, Azion's custom Github Actions will kick in to handle the deploy
+Once a PR is merged, Azion's custom Github Actions will kick in to handle the deployment.
+
+## Static site rendering/generation
+
+This project also uses the angular package `@angular/ssr` for _static site rendering/generation_. SSG/SSR is a method of generating pages at build times instead of runtime, thus improving load times, security, availability, etc. In this case, only two blog posts (ids 1 and 2) are SSG'ed.
+
+Build time rendering doesn't really makes sense for a dynamic, constantly updated blog, since that would imply at every new post, a new build would have to be made, but since this is a simple learning project, I chose two posts to statically serve. A more appropriate use for this feature could be portfolios (my mind goes to art and 3D modeling portfolios), documentations, e-commerce, etc.
 
 ---
 
