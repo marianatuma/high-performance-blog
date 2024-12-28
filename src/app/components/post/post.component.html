@@ -1,1 +1,10 @@
-<p>post works!</p>
+@if (post) {
+<div>
+  <h1>{{ post.title }}</h1>
+  <h1>{{ post.body }}</h1>
+</div>
+} @else {
+<div>
+  <h1>Post not found</h1>
+</div>
+}
