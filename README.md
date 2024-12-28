@@ -12,11 +12,21 @@ The backend is mocked by [JSONPlaceholder](https://jsonplaceholder.typicode.com/
 - **Angular**: _The_ frontend framework. This blog is built with Angular 18.
 - **Typescript**: Typescript is a Javascript superset - more robust, intuitive and powerful.
 
-## Commands
+## How it works:
 
-- `azion build`:
+Once a PR is merged, Azion's custom Github Actions will kick in to handle the deployment.
+
+## Static site rendering/generation
+
+This project also uses the angular package `@angular/ssr` for _static site rendering/generation_. SSG/SSR is a method of generating pages at build times instead of runtime, thus improving load times, security, availability, etc. In this case, only two blog posts (ids 1 and 2) are SSG'ed.
+
+Appropriate uses for this feature could be portfolios (my mind goes to art and 3D modeling portfolios), documentations, e-commerce, etc.
+
+For this to work, it's also necessary to create a Rule in Azion's _Rules Engine_ that will redirect all requests where the URI starts with `/post` and _rewrite them_ so they go to `/${uri}/index.html`, thus returning the pre-rendered post.
 
 ---
+
+# Azion-generated README
 
 # Angular Boilerplate
 
