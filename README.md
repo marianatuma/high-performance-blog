@@ -2,7 +2,7 @@
 
 - **Azion**: Brazilian platform that provides CDN, edge computing and security services for high-performance and scalability. You can learn more about Azion [here](https://www.azion.com/en/)
   - Azion automatically creates Github actions that handle CI/CD, and an Angular boilerplate project.
-- **Angular**: No introduction needed.
+- **Angular**: _The_ frontend framework. This blog is built with Angular 18. -**Typescript**:
 
 ---
 
