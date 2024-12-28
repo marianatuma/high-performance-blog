@@ -1,6 +1,6 @@
 ## Tech Stack
 
-- **Azion**: Brazilian platform that provides CDN, edge computing and security services. You can learn more about Azion [here](https://www.azion.com/en/)
+- **Azion**: Brazilian platform that provides CDN, edge computing and security services for high-performance and scalability. You can learn more about Azion [here](https://www.azion.com/en/)
   - Azion automatically creates Github actions that handle CI/CD, and an Angular boilerplate project.
 - **Angular**: No introduction needed.
 
