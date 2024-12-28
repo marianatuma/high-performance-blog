@@ -1,8 +1,15 @@
+## Description
+
+This project is a very simple, barebones frontend for a blog, built simply to understand and familiarize myself with Azion, a new platform for edge-computing.
+
+The backend is mocked by [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+
 ## Tech Stack
 
 - **Azion**: Brazilian platform that provides CDN, edge computing and security services for high-performance and scalability. You can learn more about Azion [here](https://www.azion.com/en/)
   - Azion automatically creates Github actions that handle CI/CD, and an Angular boilerplate project.
-- **Angular**: _The_ frontend framework. This blog is built with Angular 18. -**Typescript**:
+- **Angular**: _The_ frontend framework. This blog is built with Angular 18.
+- **Typescript**: Typescript is a Javascript superset - more robust, intuitive and powerful.
 
 ---
 
